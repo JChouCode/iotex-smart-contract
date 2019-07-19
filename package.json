@@ -1,0 +1,26 @@
+{
+  "name": "iotex-smart-contract",
+  "version": "1.0.0",
+  "description": "Deploying a solidity smart contract on iotex using antenna sdk",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JChouCode/iotex-smart-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JChouCode/iotex-smart-contract/issues"
+  },
+  "homepage": "https://github.com/JChouCode/iotex-smart-contract#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "2.3.0"
+  }
+}

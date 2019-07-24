@@ -4,18 +4,18 @@ Deploying a solidity smart contract on iotex using Nodejs/antenna sdk. This repo
 
 ## Creating a smart contract
 
-Modify `contract.sol` with the smart contract you want to deploy
+Modify `contracts/contract.sol` with the smart contract you want to deploy
 
 ## Compiling
 
 Execute the following command
 ```
-$ node compile.js
+$ truffle compile
 ```
 
 ## Deploy to MainNet
 
-Execute the following command
+Enter abi, bytecode and execute the following command
 ```
 $ node deploy.js
 ```
